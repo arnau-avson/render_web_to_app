@@ -9,7 +9,7 @@ La app carga una web en un `WebView` y la muestra como si fuera una aplicación 
 ## Uso
 
 1. Modifica la URL en `main.dart` para la web que quieras convertir en ejecutable.
-2. Ejecuta el proyecto en la plataforma deseada:
+2. Ejecuta el proyecto en la plataforma deseada en desarrollo:
    - **Windows:**
      ```powershell
      flutter run -d windows
