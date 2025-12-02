@@ -1,52 +1,52 @@
-# Renderización Flutter
+# Flutter Web Rendering
 
-Este proyecto es una plantilla Flutter para convertir cualquier página web en una aplicación ejecutable multiplataforma (Windows, Android, iOS, Web).
+This project is a Flutter template to convert any website into a cross-platform executable application (Windows, Android, iOS, Web).
 
-## Descripción
+## Description
 
-La app carga una web en un `WebView` y la muestra como si fuera una aplicación nativa. El código principal está en `renderizacion_flutter/lib/main.dart`.
+The app loads a website in a `WebView` and displays it as if it were a native application. The main code is in `renderizacion_flutter/lib/main.dart`.
 
-## Uso
+## Usage
 
-1. Modifica la URL en `main.dart` para la web que quieras convertir en ejecutable.
-2. Ejecuta el proyecto en la plataforma deseada en desarrollo:
+1. Edit the URL in `main.dart` to the website you want to convert into an executable.
+2. Run the project on your desired platform for development:
    - **Windows:**
      ```powershell
      flutter run -d windows
      ```
    - **Android/iOS/Web:**
      ```powershell
-     flutter run -d <dispositivo>
+     flutter run -d <device>
      ```
 
-## Requisitos
+## Requirements
 
 - Flutter SDK
-- Visual Studio (para Windows)
+- Visual Studio (for Windows)
 - CMake
 
-## Dependencias principales
+## Main dependencies
 - `webview_flutter` (Android/iOS/Web)
 - `webview_windows` (Windows)
 
-## Build para Windows
+## Build for Windows
 
-Para generar el ejecutable de Windows:
+To generate the Windows executable:
 ```bash
 flutter build windows
 ```
 
-## Desarrollo en Windows
+## Development on Windows
 
-Para ejecutar la app en modo desarrollo en Windows:
+To run the app in development mode on Windows:
 ```bash
 flutter run -d windows
 ```
 
-## Personalización
+## Customization
 
-- Cambia la URL en el controlador del WebView en `main.dart` para mostrar cualquier web.
+- Change the URL in the WebView controller in `main.dart` to display any website.
 
 ---
 
-Este proyecto está pensado únicamente para renderizar webs como ejecutables, sin lógica adicional.
+This project is intended only to render websites as executables, with no additional logic.
